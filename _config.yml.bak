@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+baseurl:  /jekyll_demo
+=======
+baseurl: /jekyll_demo
+theme: jekyll-theme-cayman
+>>>>>>> fe7b279e89d12f8b50a137840a23ca6c6639e268
