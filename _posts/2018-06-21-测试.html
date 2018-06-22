@@ -1,0 +1,1235 @@
+---
+layout: default
+title: 测试
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/u012675539/article/details/43734055"/> 
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta name="description" content="Jekyll 安装、使用与卸载方法最近用Jekyll在Github上架网站，前后花了几天时间深入了解一下Jekyll，现在将Jekyll的安装、使用与卸载方法分享出来。Jekyll 是一个简单的网站静态页面生成工具。由于是用Ruby语音编写的，所以在Windows系统上配置起来还是稍微有点繁琐的。主要步骤如下：
+安装Ruby：windows系统上使用rubyinstaller，猛戳我下载。根据官网体" />
+    <meta name="keywords" content="前端,Jekyll" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <script src="https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js"></script>
+
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>Jekyll 安装、使用方法与卸载 - CSDN博客</title>
+    
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-60a2c245da.min.css">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-88717cedf2.min.css">
+
+    <script type="text/javascript">
+        var username = "u012675539";
+        var blog_address = "https://blog.csdn.net/u012675539";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = ""; 
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "https://passport.csdn.net/account/login?from=https://blog.csdn.net/u012675539/article/details/43734055"
+        var blogUrl = "https://blog.csdn.net/";
+        var curSkin = "skin3-template";
+    </script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <!-- 新版上报 -->
+    <script src="//g.csdnimg.cn/track/1.0.0/track.js" type="text/javascript"></script>
+    <!-- 新版上报end -->
+            <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.3/css/sandalstrap.min.css"> 
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<body>    
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+    <script src="https://csdnimg.cn/public/sandalstrap/1.3/fonts/csdnc/csdnc.js"></script><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+
+<header>
+	<div class="container d-flex clearfix">
+		<div class="title-box">
+			<h2 class="title-blog">
+				<a href="https://blog.csdn.net/u012675539">conding_算子</a>
+			</h2>
+			<p class="description"></p>
+		</div>
+		<div class="opt-box d-flex justify-content-end">
+			<a class="btn btn-sm" href="https://blog.csdn.net/u012675539/rss/list">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#csdnc-rss"></use>
+					</svg>RSS订阅</a>
+					</div>
+	</div>
+</header><script src="https://dup.baidustatic.com/js/ds.js"></script>
+<div class="container clearfix pt0" id="mainBox">
+    <main>
+        <div class="blog-content-box">
+	<div class="article-title-box">
+			<span class="article-type type-1 float-left">原</span>		<h1 class="title-article">Jekyll 安装、使用方法与卸载</h1>
+	</div>
+	<div class="article-info-box">
+		<div class="article-bar-top d-flex">
+												<span class="time">2015年02月11日 14:53:18</span>
+			<div class="float-right">
+				<span class="read-count">阅读数：6250</span>
+											</div>
+		</div>
+	</div>
+	<article>
+		<div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog"  data-mod=popu_307  data-dsm = "post" >
+                    <div class="markdown_views">
+                <h1 id="jekyll-安装使用与卸载方法">Jekyll 安装、使用与卸载方法</h1>
+
+<p>最近用Jekyll在Github上架网站，前后花了几天时间深入了解一下Jekyll，现在将Jekyll的安装、使用与卸载方法分享出来。</p>
+
+<p>Jekyll 是一个简单的网站静态页面生成工具。由于是用Ruby语音编写的，所以在Windows系统上配置起来还是稍微有点繁琐的。主要步骤如下：</p>
+
+<ol>
+<li>安装Ruby：windows系统上使用rubyinstaller，<a href="http://rubyinstaller.org/downloads/" rel="nofollow">猛戳我下载</a>。根据官网体系下载相关版本。</li>
+<li>安装Ruby DevKit：在上面那个官网的下方有下载地址。</li>
+<li>安装Jekyll</li>
+</ol>
+
+
+
+<h2 id="安装方法">安装方法</h2>
+
+<p>从rubyinstalll下载安装包并安装到某个磁盘中，如E:\Ruby193，勾选上安装界面的所有选项（不要问我为什么）；把下载的DevKit解压到某个目录，比如E:\devit</p>
+
+<p><strong><em>注意：安装DevKit时最好在安装目录新建一个文件夹devit然后，运行安装程序选定该文件夹</em></strong></p>
+
+<p>git bash 环境进入devit安装目录，运行如下命令</p>
+
+<pre><code>cd /E/devit
+ruby dk.rb init
+</code></pre>
+
+<p>来生成一个config.yml配置文件，该配置文件包含了前面的Ruby的安装目录E:\Ruby193（<em>系统会自动帮你寻找Ruby的安装目录，<code>cat config.yml</code>可以看到该文件里面已经写入了ruby目录的绝对路径</em>）。</p>
+
+<p>接下来运行<code>ruby dk.rb install</code>。</p>
+
+<p><img src="https://img-blog.csdn.net/20150211144859071" alt="整个过程图示" title=""></p>
+
+<p>最后运行命令<code>gem install jekyll</code>结束整个流程</p>
+
+<p><strong>检测是否安装成功<code>jekyll -v</code></strong></p>
+
+
+
+<h2 id="简要介绍">简要介绍</h2>
+
+<p><em>在谈使用方法前有必要简单介绍一下什么是Jeklly、以及Jeklly的工作原理。这些核心的概念能解决你的一些疑惑，帮助你更深入的理解，也为后面学习使用模板使用打基础，不至于在出现错误的时候漫天的debug</em>。</p>
+
+<p><strong>如果你只是想要简单了解或知道怎样使用jeklly，那么此部分可以跳过。</strong></p>
+
+<h3 id="jeklly是什么">Jeklly是什么</h3>
+
+<blockquote>
+  <p>Jekyll is a ruby gem you install on your local system. Once there you can call <code>jekyll --server</code> on a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.</p>
+  
+  <p>Once parsed, Jekyll stores the result in a self-contained static _site folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.</p>
+</blockquote>
+
+<p><strong>Jeklly是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。</strong></p>
+
+
+
+<h3 id="jeklly是怎么工作的">Jeklly是怎么工作的</h3>
+
+<p>安装完jeklly后你需要以jeklly可以识别的方式来组织你的目录。</p>
+
+<p>它希望你使用下面的目录结构：</p>
+
+<pre><code>.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts
+</code></pre>
+
+<ul>
+<li><p><strong>_config.yml</strong>： <br>
+ 配置文件数据</p></li>
+<li><p><strong>_includes</strong> <br>
+This folder is for partial views.</p></li>
+<li><p><strong>_layouts</strong> <br>
+这个目录主要包含模板，你可以为不同的页面(page)使用不同的模板。</p></li>
+<li><p><strong>_posts</strong> <br>
+这个目录包含你的文章(post)，且必须按照格式 <code>@YEAR-MONTH-DATE-title.MARKUP@</code>来进行命名</p></li>
+<li><p><strong>_site</strong> <br>
+这个目录将被用来存放Jekyll生成的静态网站。</p></li>
+<li><p><strong>assets</strong> <br>
+这个目录不属于Jekyll的标准结构。它代表了任何你希望放置在根目录下的目录，并且被Jekyll忽略。</p></li>
+</ul>
+
+<p>(read more: <a href="https://github.com/mojombo/jekyll/wiki/Usage" rel="nofollow">https://github.com/mojombo/jekyll/wiki/Usage</a>)</p>
+
+
+
+<h2 id="jekyll怎样生成最终的静态文件">Jekyll怎样生成最终的静态文件</h2>
+
+<ol>
+<li><p><strong>收集数据。</strong></p>
+
+<p>Jeklly扫描posts目录收集文章（post file)作为post对象。然后扫描layout、assets,最后在其他目录中搜索页面文件（pages file）。</p></li>
+<li><p><strong>计算数据。</strong></p>
+
+<p>Jeklly从上面那些对象中提取元数据（连接、标签、分类、标题、数据）并构造出一个很大的site对象来容纳所有的文章、页面、布局和元数据。在这一步中，你的站点简单来说就是一个ruby对象。</p></li>
+<li><p><strong>溶解文章和模板。</strong></p>
+
+<p>Jeklly遍历所有文章（post file）并将它们镶嵌到各自的布局中。溶解过程如下：Jeklly初始化一个Liquid模板，传递一个代表ruby站点对象的散列表和一个代表ruby文章对象的散列表，这两个散列表可以通过模板读取。</p></li>
+<li><p><strong>生成输出。</strong></p>
+
+<p>Liquid模板通过有模板提供的语法得到渲染，最终生成一个静态的表达文件。</p></li>
+</ol>
+
+
+
+<h2 id="使用方法">使用方法</h2>
+
+<p>以bootstrap模板为例子简要介绍如何快速搭建起一个站点。</p>
+
+<p>下载 Jekyll-bootstrap的模板项目到本地目录jekyll</p>
+
+<pre><code>git clone https://github.com/plusjade/jekyll-bootstrap.git demo
+</code></pre>
+
+<p><code>cd jekyll</code>进入目录，<code>jekyll serve</code>启动服务</p>
+
+<p>打开浏览器，地址栏输入<a href="http://localhost:4000/" rel="nofollow">http://localhost:4000/</a>可以看到如下主页面</p>
+
+<p><img src="https://img-blog.csdn.net/20150211145028525" alt="主页面" title=""></p>
+
+
+
+<h3 id="编写新文章">编写新文章</h3>
+
+<p>通过命令生成新文章</p>
+
+<pre><code>gdw@GDW-PC /E/Git/demo (master)
+$ rake post title="My first blog"
+Creating new post: ./_posts/2015-02-11-my-first-blog.md
+</code></pre>
+
+<p>在_posts目录中可以找到该文件，并用Markdown编辑内容。</p>
+
+<p>也可以直接将编辑好的文章放置到_posts目录中，但一定要在编辑好的文章开头使用<strong>YAML Front Matter</strong>。<strong>模板、文章和页面都需要提供YAML Front Matter，这样Jekyll才知道该如何处理你的文章。</strong></p>
+
+<p>在模板/文章/页面的开头需要提供如下格式的YAML Front Matter</p>
+
+<pre><code>---
+layout: post
+category : pages
+tags : [how-to, jekyll]
+---
+
+... contents ...
+</code></pre>
+
+
+
+<h3 id="编写新页面">编写新页面</h3>
+
+<p>通过命令生成新页面</p>
+
+<pre><code>gdw@GDW-PC /E/Git/demo (master)
+$ rake page name="about.md"
+mkdir -p .
+Creating new page: ./about.md
+
+gdw@GDW-PC /E/Git/demo (master)
+$ rake page name="pages/about"
+mkdir -p ./pages/about
+Creating new page: ./pages/about/index.html
+</code></pre>
+
+
+
+<h2 id="卸载jekyll">卸载Jekyll</h2>
+
+<p>安装配置Jekyll难，卸载却极其的简单。只需一句</p>
+
+<pre><code>gem unistall jekyll
+</code></pre>            </div>
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/markdown_views-ea0013b516.css" />
+                </div>
+				<div class="hide-article-box text-center csdn-tracking-statistics tracking-click" data-mod="popu_376">
+			<a class="btn btn-red-hollow" id="btn-readmore">阅读更多</a>
+		</div>
+        	</article>
+	
+		<div class="article-bar-bottom">
+						<div class="tags-box artic-tag-box">
+			<span class="label">文章标签：</span>
+						<a class="tag-link" href="http://so.csdn.net/so/search/s.do?q=前端&t=blog" target="_blank">前端						<a class="tag-link" href="http://so.csdn.net/so/search/s.do?q=Jekyll&t=blog" target="_blank">Jekyll						</a>
+		</div>
+						<div class="tags-box">
+			<span class="label">个人分类：</span>
+						<a class="tag-link" href="https://blog.csdn.net/u012675539/article/category/5693257"  target="_blank">------7.2 Jekyll						</a>
+		</div>
+					</div>
+	
+	<!-- !empty($pre_next_article[0]) -->
+		</div>
+<script>
+    $(".MathJax").remove();
+</script>
+
+<script type="text/javascript" src="https://static-blog.csdn.net/mdeditor/public/res/bower-libs/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+			"HTML-CSS": {
+					linebreaks: { automatic: true, width: "94%container" },
+					imageFont: null
+			},
+			tex2jax: {
+				preview: "none"
+			},
+			mml2jax: {
+				preview: 'none'
+			}
+	});
+</script>
+<script>
+	(function(){
+		var btnReadmore = $("#btn-readmore");
+		if(btnReadmore.length>0){
+			var winH = $(window).height();
+			var articleBox = $("div.article_content");
+			var artH = articleBox.height();
+			if(artH > winH*2){
+				articleBox.css({
+					'height':winH*2+'px',
+					'overflow':'hidden'
+				})
+				btnReadmore.click(function(){
+					articleBox.removeAttr("style");
+					$(this).parent().remove();
+				})
+			}else{
+				btnReadmore.parent().remove();
+			}
+		}
+	})()
+</script>        <div data-track-view='{"mod":"popu_625","con": ",https://blog.csdn.net/u012675539/article/details/43734055,from_360"}' style="margin-top: 8px;padding: 20px;background-color: #fff;overflow: hidden;" id="adt0"></div>
+                            <script>
+                                var adWidth = $("div.blog-content-box").outerWidth() - 40;
+                                NEWS_FEED({
+                                    w: adWidth,
+                                    h : 130,
+                                    showid : "s02a31",
+                                    placeholderId: "adt0",
+                                    inject : "define",
+                                    define : {
+                                    imagePosition : "right",
+                                    imageBorderRadius : 0,
+                                    imageWidth: 231,
+                                    imageHeight: 130,
+                                    imageFill : "clip",
+                                    displayImage : true,
+                                    displayTitle : true,
+                                    titleFontSize: 20,
+                                    titleFontColor: "#333",
+                                    titleFontFamily : "Microsoft Yahei",
+                                    titleFontWeight: "bold",
+                                    titlePaddingTop : 0,
+                                    titlePaddingRight : 0,
+                                    titlePaddingBottom : 10,
+                                    titlePaddingLeft : 0,
+                                    displayDesc : true,
+                                    descFontSize: 14,
+                                    descFontColor: "#6b6b6b",
+                                    descFontFamily : "Microsoft Yahei",
+                                    paddingTop : 0,
+                                    paddingRight : 0,
+                                    paddingBottom : 0,
+                                    paddingLeft : 0,
+                                    backgroundColor: "#fff",
+                                    hoverColor: "#ca0c16"
+                                    }
+                                })
+                            </script>        <a id="commentBox"></a>
+<div class="comment-box">
+	  	<div class="unlogin-box text-center">
+		想对作者说点什么？
+		<!-- $curl 当前地址 -->
+		<a href="https://passport.csdn.net/account/login?from=https://blog.csdn.net/u012675539/article/details/43734055#commentBox" class="btn btn-sm btn-red">我来说一句</a>
+	</div>
+			<div class="comment-list-container">
+		<a id="comments"></a>
+		<div class="comment-list-box">
+		</div>
+		<div id="commentPage" class="pagination-box d-none"></div>
+		<div class="opt-box text-center">
+			<button class="btn btn-sm btn-link-blue" id="btnMoreComment"></button>
+		</div>
+	</div>
+</div>        <div class="recommend-box">
+            		<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/u013939884/article/details/53288322" target="_blank" strategy="BlogCommendFromBaidu_0">
+				<em>jekyll</em> serve 启动失败			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/u013939884/article/details/53288322" target="_blank" >
+				<em>jekyll</em> serveIncremental build: disabled. Enable with –incremental 
+      Generating… 
+              ...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/u013939884" title="u013939884" target="_blank">
+					<img src="https://avatar.csdn.net/A/8/0/3_u013939884.jpg" alt="u013939884" class="avatar-pic">
+					<span class="name">u013939884</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2016-11-22 17:01:28</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：779</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/qq245282209/article/details/53868832" target="_blank" strategy="BlogCommendFromBaidu_1">
+				<em>Jekyll</em> <em>安装</em>			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq245282209/article/details/53868832" target="_blank" >
+				0x0 简介<em>Jekyll</em>是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和自带的 Liquid 渲染器转化成一个完整的可发布...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/qq245282209" title="qq245282209" target="_blank">
+					<img src="https://avatar.csdn.net/5/6/1/3_qq245282209.jpg" alt="qq245282209" class="avatar-pic">
+					<span class="name">qq245282209</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2016-12-25 11:42:08</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：1140</span>
+			</p>
+		</div>
+	</div>
+		        <!-- CSDNBLOG-4825 By:maokq 20180620 -->
+									<div class="recommend-item-box recommend-ad-box" id="ad1"></div>
+				<script>
+				var width = $("div.recommend-box").outerWidth() - 48;
+					NEWS_FEED({
+						w: width,
+						h : 90,
+						showid : 'GNKXx7',
+						placeholderId: "ad1",
+						inject : 'define',
+						define : {
+							imagePosition : 'right',
+							imageBorderRadius : 0,
+							imageWidth: 120,
+							imageHeight: 90,
+							imageFill : 'clip',
+							displayImage : true,
+							displayTitle : true,
+							titleFontSize: 20,
+							titleFontColor: '#333',
+							titleFontFamily : 'Microsoft Yahei',
+							titleFontWeight: 'bold',
+							titlePaddingTop : 0,
+							titlePaddingRight : 0,
+							titlePaddingBottom : 10,
+							titlePaddingLeft : 0,
+							displayDesc : true,
+							descFontSize: 14,
+							descFontColor: '#6b6b6b',
+							descFontFamily : 'Microsoft Yahei',
+							paddingTop : 0,
+							paddingRight : 0,
+							paddingBottom : 0,
+							paddingLeft : 0,
+							backgroundColor: '#fff',
+							hoverColor: '#ca0c16'
+						}
+					})
+				</script>
+
+					
+				<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/springlustre/article/details/52728813" target="_blank" strategy="BlogCommendFromBaidu_2">
+				使用github page搭建个人博客（<em>jekyll</em>的<em>安装</em>和使用）			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/springlustre/article/details/52728813" target="_blank" >
+				github Pages 是在github上托管的静态网页。从2016年6月15日开始，通过域名github.io访问使用的是https协议。github pages的代码仓库容量限定是1G,并且带宽...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/springlustre" title="springlustre" target="_blank">
+					<img src="https://avatar.csdn.net/0/0/2/3_springlustre.jpg" alt="springlustre" class="avatar-pic">
+					<span class="name">springlustre</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2016-10-06 13:59:48</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：2948</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/joelcat/article/details/78642434" target="_blank" strategy="BlogCommendFromBaidu_3">
+				<em>jekyll</em> 完整<em>安装</em>教程			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/joelcat/article/details/78642434" target="_blank" >
+				我的操作环境阿里云 CentOS主机:LSB Version:    :core-4.1-amd64:core-4.1-noarch
+Distributor ID: CentOS
+Descriptio...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/joelcat" title="joelcat" target="_blank">
+					<img src="https://avatar.csdn.net/E/4/6/3_joelcat.jpg" alt="joelcat" class="avatar-pic">
+					<span class="name">joelcat</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2017-11-27 10:26:54</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：1385</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/qiujuer/article/details/44620019" target="_blank" strategy="BlogCommendFromBaidu_4">
+				[环境搭建]Windows下<em>安装</em>Ruby和<em>Jekyll</em>			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/qiujuer/article/details/44620019" target="_blank" >
+				<em>Jekyll</em>是一款静态网站生成工具，允许用户使用HTML、Markdown或Textile通过模块的方式建立所需网站，然后通过模板引擎Liquid（Liquid Templating Engine）来...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/qiujuer" title="qiujuer" target="_blank">
+					<img src="https://avatar.csdn.net/3/6/5/3_qiujuer.jpg" alt="qiujuer" class="avatar-pic">
+					<span class="name">qiujuer</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2015-03-26 10:37:29</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：7563</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/hezy94/article/details/78369551" target="_blank" strategy="BlogCommendFromBaidu_5">
+				<em>Jekyll</em>模板的使用			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/hezy94/article/details/78369551" target="_blank" >
+				<em>Jekyll</em>模板的使用花了一晚上的功夫把原先Github Pages中的小东西，变成了大东西！ 
+网上还是有各种教程的，毕竟也不是什么特别难的东西，只要花点时间，都是可以实现的。现在在来稍微地总结一下...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/hezy94" title="hezy94" target="_blank">
+					<img src="https://avatar.csdn.net/4/0/4/3_hezy94.jpg" alt="hezy94" class="avatar-pic">
+					<span class="name">hezy94</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2017-10-27 21:44:47</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：2268</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box recommend-ad-box" id="a_d_feed_0"></div>
+			<script>
+				var width = $("div.recommend-box").outerWidth() - 48;
+				NEWS_FEED({
+					w: width,
+					h: 90,
+					showid: 'Afihld',
+					placeholderId: 'a_d_feed_0',
+					inject: 'define',
+					define: {
+						imagePosition: 'right',
+						imageBorderRadius: 0,
+						imageWidth: 120,
+						imageHeight: 90,
+						imageFill: 'clip',
+						displayImage: true,
+						displayTitle: true,
+						titleFontSize: 20,
+						titleFontColor: '#333',
+						titleFontFamily: 'Microsoft Yahei',
+						titleFontWeight: 'bold',
+						titlePaddingTop: 0,
+						titlePaddingRight: 0,
+						titlePaddingBottom: 10,
+						titlePaddingLeft: 0,
+						displayDesc: true,
+						descFontSize: 14,
+						descFontColor: '#6b6b6b',
+						descFontFamily: 'Microsoft Yahei',
+						paddingTop: 0,
+						paddingRight: 0,
+						paddingBottom: 0,
+						paddingLeft: 0,
+						backgroundColor: '#fff',
+						hoverColor: '#ca0c16'
+					}
+				})
+			</script>
+			<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/mouday/article/details/79300135" target="_blank" strategy="BlogCommendFromBaidu_6">
+				windows<em>安装</em><em>jekyll</em>步骤及问题			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/mouday/article/details/79300135" target="_blank" >
+				既然都看到这篇文章了，想必也对<em>jekyll</em>有所了解，我也是新手，将自己遇到的一些问题分享出来，希望能对大家有帮助。
+
+步骤： 
+<em>安装</em> Ruby 
+<em>安装</em> DevKit 
+<em>安装</em> <em>Jekyll</em>
+
+
+
+
+
+1...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/mouday" title="mouday" target="_blank">
+					<img src="https://avatar.csdn.net/9/2/0/3_mouday.jpg" alt="mouday" class="avatar-pic">
+					<span class="name">mouday</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2018-02-09 16:55:40</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：545</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/itmyhome/article/details/41982625" target="_blank" strategy="BlogCommendFromBaidu_7">
+				Windows上<em>安装</em><em>Jekyll</em>			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/itmyhome/article/details/41982625" target="_blank" >
+				<em>jekyll</em>是一个简单的免费的Blog生成工具,是一个静态站点生成器,它会根据网页源码生成静态文件。
+它提供了模板、变量、插件等功能,所以实际上可以用来编写整个网站。
+我们可以使用<em>jekyll</em> boo...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/itmyhome" title="itmyhome" target="_blank">
+					<img src="https://avatar.csdn.net/2/D/B/3_itmyhome.jpg" alt="itmyhome" class="avatar-pic">
+					<span class="name">itmyhome</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2014-12-18 22:08:21</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：4718</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/Rainloving/article/details/45745491" target="_blank" strategy="BlogCommendFromBaidu_8">
+				Windows 上<em>安装</em> <em>Jekyll</em>			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/Rainloving/article/details/45745491" target="_blank" >
+				目录(?)[+]
+
+<em>安装</em> Ruby<em>安装</em> DevKit<em>安装</em> <em>Jekyll</em><em>安装</em> Pygments
+
+<em>安装</em> Python<em>安装</em> Easy Install<em>安装</em> Pygments
+启动 <em>Jekyll</em>故障...			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/Rainloving" title="Rainloving" target="_blank">
+					<img src="https://avatar.csdn.net/B/A/0/3_rainloving.jpg" alt="Rainloving" class="avatar-pic">
+					<span class="name">Rainloving</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2015-05-15 15:38:26</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：4718</span>
+			</p>
+		</div>
+	</div>
+					<div class="recommend-item-box csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+		<h4 class="text-truncate">
+			<a href="https://blog.csdn.net/u011747846/article/details/46368553" target="_blank" strategy="BlogCommendFromBaidu_9">
+				Ubuntu14.04+<em>Jekyll</em>+Github Pages搭建静态博客			</a>
+		</h4>
+		<p class="content">
+			<a href="https://blog.csdn.net/u011747846/article/details/46368553" target="_blank" >
+				Ubuntu14.04+<em>Jekyll</em>+Github Pages搭建静态博客
+
+1. <em>Jekyll</em>简介
+
+
+简单:无需数据库			</a>
+		</p>
+		<div class="info-box d-flex align-content-center">
+			<p>
+				<a class="avatar" src="https://blog.csdn.net/u011747846" title="u011747846" target="_blank">
+					<img src="https://avatar.csdn.net/E/E/D/3_u011747846.jpg" alt="u011747846" class="avatar-pic">
+					<span class="name">u011747846</span>
+				</a>
+			</p>
+			<p>
+				<span class="date">2015-06-04 23:35:33</span>
+			</p>
+			<p>
+				<span class="read-num">阅读数：1774</span>
+			</p>
+		</div>
+	</div>
+			
+            <div class="recommend-loading-box">
+                <img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'>
+            </div>
+            <div class="recommend-end-box">
+                <p class="text-center">没有更多推荐了，<a href="https://blog.csdn.net/" class="c-blue c-blue-hover c-blue-focus">返回首页</a></p>
+            </div>
+        </div>
+    </main>
+    <aside>
+		    <div id="asideProfile" class="aside-box">
+    <h3 class="aside-title">个人资料</h3>
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/u012675539">
+                <img src="https://avatar.csdn.net/7/7/F/3_u012675539.jpg" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://blog.csdn.net/u012675539" target="_blank" class="text-truncate" id="uid">u012675539</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                                <a class="btn btn-sm btn-red-hollow" href="https://passport.csdn.net/account/login?from=https://blog.csdn.net/u012675539/article/details/43734055" target="_self">关注</a>
+                            </span>
+                    </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="155">
+                        <dt><a href="https://blog.csdn.net/u012675539?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/u012675539?t=1"><span class="count">155</span></a></dd>
+                    </dl>
+        <dl class="text-center" title="120">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">120</span></dd>
+        </dl>
+        <dl class="text-center" title="17">
+            <dt>喜欢</dt>
+            <dd><span class="count">17</span></dd>
+        </dl>
+        <dl class="text-center" title="80">
+            <dt>评论</dt>
+            <dd><span class="count">80</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="6级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-6"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="466057">
+                46万+            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="5295">
+                5295            </dd>
+        </dl>
+        <dl title="6761">
+            <dt>排名：</dt>
+            <dd>6761</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+                <a class="icon-badge" title="专栏达人">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#csdnc-m-columns"></use>
+            </svg>
+            <div class="icon-arrow"></div>
+            <div class="grade-detail-box item1">
+                <div class="pos-box">
+                    <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#csdnc-m-columns"></use>
+                        </svg>
+                        <p>专栏达人</p>
+                    </div>
+                    <div class="right-box d-flex justify-content-center align-items-center">
+                        授予成功创建个人博客专栏的用户。专栏中添加五篇以上博文即可点亮！撰写博客专栏浓缩技术精华，专栏达人就是你！
+                    </div>
+                </div>
+            </div> 
+        </a>  
+                                    </div>
+    </div>		    <div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+        <!-- 投放代码 -->
+        <!-- CSDNBLOG-4825 By:maokq 20180620 -->
+                    <script type="text/javascript" src="//cee1.iteye.com/lgyyovfyh.js"></script>
+            </div>
+</div>
+		    <!--自定义模块-->
+<div id="asideCustom40897641" class="aside-box custom-box">
+    <h3 class="aside-title">个人链接</h3>
+    <div class="aside-content clearfix">
+        
+<p><b>Github地址: <a href="https://github.com/David-Guo">https://github.com/David-Guo</a></b></p>
+<p><b>个人主页: <a href="http://guodavid.tk/">http://guodavid.tk/</a></b></p>
+    </div>
+</div>
+		    <div id="asideNewArticle" class="aside-box">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix csdn-tracking-statistics tracking-click" data-mod="popu_382">
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012675539/article/details/53537271" target="_blank">Fast rcnn cpu 训练自己的数据</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012675539/article/details/53355261" target="_blank">texmaker ubuntu 配置</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012675539/article/details/53306335" target="_blank">flask 视频流直播</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012675539/article/details/53169374" target="_blank">python 爬虫爬取新东方考研真题</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012675539/article/details/53018703" target="_blank">css float 布局</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+		    <div id="asideColumn" class="aside-box">
+    <h3 class="aside-title">博主专栏</h3>
+    <div class="aside-content">
+        <ul class="column-box csdn-tracking-statistics tracking-click" data-mod="popu_520" >
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/column/details/latexeverywhere.html">
+                            <img src="https://img-blog.csdn.net/20151225195131087?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/column/details/latexeverywhere.html">latex 笔记</a></p>
+                        <div class="data">阅读量：<span>45249</span><span class="count">7 篇</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/column/details/matlabawesome.html">
+                            <img src="https://img-blog.csdn.net/20151225195051523?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/column/details/matlabawesome.html">Matlab awesome</a></p>
+                        <div class="data">阅读量：<span>79941</span><span class="count">6 篇</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/column/details/leetcode-awesome.html">
+                            <img src="https://img-blog.csdn.net/20160307203117229?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/column/details/leetcode-awesome.html">leetcode 题解</a></p>
+                        <div class="data">阅读量：<span>6883</span><span class="count">16 篇</span></div>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+    </div>
+		    <div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2491391">
+                    1、MATLAB                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2872735">
+                    2、C/C++ 相关                    <span class="count float-right">10篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5647315">
+                    3、Python                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5689983">
+                    ------3.1 Pandas                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2932641">
+                    4、数学基础                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5689583">
+                    ------4.1 机器学习之kaggle 入门                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/6003545">
+                    ------4.2 数值最优化                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2874415">
+                    5、Linux 相关                    <span class="count float-right">34篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2484619">
+                    ------5.1 Archlinux                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2921471">
+                    ------5.2 vim                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2878085">
+                    ------5.3 linux内核编程                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/6009685">
+                    ------5.4 网络编程                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2866407">
+                    6、数据结构/算法/操作系统                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/6108625">
+                    ------6.1 数据结构                    <span class="count float-right">8篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/6093542">
+                    ------6.2 leetcode                    <span class="count float-right">16篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2890657">
+                    7、web 开发                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/6013005">
+                    ------7.1 apache/nginx                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5693257">
+                    ------7.2 Jekyll                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5682377">
+                    8、 界面开发                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2872429">
+                    ------8.1 MFC                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2864761">
+                    9、HPC高性能计算                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2866157">
+                    ------9.1 MPI                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2874351">
+                    ------9.2 OpenMP                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/2879049">
+                    ------9.3 高性能数学库                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/3215655">
+                    11、OpenGL                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5439561">
+                    11、Latex                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5682419">
+                    12、Opencv                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://blog.csdn.net/u012675539/article/category/5682407">
+                    13、面试                    <span class="count float-right">9篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		<div id="asideFooter">
+			
+		<div class="aside-box">
+						<script type="text/javascript" src="//cee1.iteye.com/avneunkwb.js"></script>
+					</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask-dark"></div>
+<div class="pulllog-box" style="display: block;">
+	<div class="pulllog clearfix">
+		<span class="text float-left">加入CSDN，享受更精准的内容推荐，与500万程序员共同成长！</span>
+		<div class="pulllog-btn float-right clearfix">
+            <button class="pulllog-login float-left csdn-tracking-statistics tracking-click" data-mod="popu_557">
+                登录
+            </button>
+            <div class="pulllog-sigin float-left csdn-tracking-statistics tracking-click" data-mod="popu_558">
+                <a href="https://passport.csdn.net/account/mobileregister" target="_blank">注册</a>
+            </div>
+            <button class="btn-close">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#csdnc-times"></use>
+                </svg>
+            </button>
+		</div>
+	</div>
+</div>
+<div id="loginWrap" style="display:none"></div>
+<div class="tool-box">
+	<ul class="meau-list">
+		<li>
+			<button class="btn-like " title="点赞">
+				<svg class="icon active" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup-ok"></use>
+				</svg><svg class="icon no-active" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup"></use>
+				</svg>
+				<p>1</p>
+			</button>
+		</li>
+		<li class="toc-container-box" id="liTocBox">
+			<button class="btn-toc" title="目录">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#csdnc-contents"></use>
+				</svg><br>目录
+			</button>
+			<div class="toc-container">
+				<div class="pos-box">
+					<div class="icon-arrow"></div>
+					<div class="scroll-box">
+						<div class="toc-box"></div>
+					</div>
+				</div>
+				<div class="opt-box">
+					<button class="btn-opt prev nomore" title="向上">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronup"></use>
+						</svg>
+					</button>
+					<button class="btn-opt next">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevrondown"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</li>
+		<li>
+			<button class="btn-bookmark" title="收藏">
+				<svg class="icon active" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark-ok"></use>
+				</svg><svg class="icon no-active" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark"></use>
+				</svg><br>收藏
+			</button>
+		</li>
+		<li>
+			<a class="btn-comments" title="评论" href="#commentBox">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#csdnc-comments"></use>
+				</svg><br>评论
+			</a>
+		</li>
+				<li class="bdsharebuttonbox">
+			<a class="btn-comments bds_weixin" data-cmd="weixin" title="微信分享">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#csdnc-wechat"></use>
+				</svg><br>微信
+			</a>
+		</li>
+		<li class="bdsharebuttonbox">
+			<a class="btn-comments bds_tsina" data-cmd="tsina" title="微博分享">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#csdnc-weibo"></use>
+				</svg><br>微博
+			</a>
+		</li>
+		<li class="bdsharebuttonbox">
+			<a class="btn-comments bds_qzone" data-cmd="qzone" title="QQ分享">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#csdnc-qq"></use>
+				</svg><br>QQ
+			</a>
+		</li>
+	</ul>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://csdnimg.cn/static/api/js/share.js?v=89860594'];</script>
+<script>
+    var recommendCount = 10;
+    recommendCount = recommendCount > 1 ? (recommendCount + (recommendCount>6 ? 2 : 1)) : recommendCount;
+    var articleTit = "Jekyll 安装、使用方法与卸载";
+    var ChannelId = 14;
+    var articleId = "43734055";
+    var commentscount = 0;
+    var islock = false;
+    var curentUrl = "https://blog.csdn.net/u012675539/article/details/43734055";
+    var myUrl = "https://my.csdn.net/";
+    //1禁止评论，2正常
+    var commentAuth = 2;
+    //百度搜索
+    var baiduKey = "jekyll%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B";
+    var needInsertBaidu = false;
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.3/js/sandalstrap.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201803151422'></script>
+<script>
+    GoTop({
+        right: 8,
+        hasReport: true,
+        reportFun: function() {
+            showReport(false,"Jekyll 安装、使用方法与卸载");
+        }
+    })
+</script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-bd54b21308.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/detail-effe72036e.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-46c7bd3d86.min.js"></script>
+<script src="https://csdnimg.cn/search/baidu_search-1.1.2.js?v=201802071056&autorun=true&install=true&keyword=jekyll%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B"  type="text/javascript"></script>
+</body>
+<div class="box-box-default">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/mhzzjepzz.js"></script>
+</div>
+<div class="box-box-large">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/idvveasfs.js"></script>
+</div>
+<!-- 第四范式SDK -->
+<script src="https://nbrecsys.4paradigm.com/resource/js/sdk-csdn-smallflow.js?t=0.1" async defer></script>
+</html>
